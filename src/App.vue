@@ -17,6 +17,9 @@ export default {
 
 <template>
   <AppHeader />
+  <AppMainTop />
+  <AppMainBot />
+  <AppFooter />
 </template>
 
 <style lang="scss" scoped>
