@@ -1,0 +1,23 @@
+.header {
+    height: 100px;
+    background-color: yellow;
+}
+
+.flex {
+    display: flex;
+}
+
+header>div {
+    justify-content: space-between;
+}
+
+header>div,
+div>nav {
+    align-items: center;
+}
+
+nav,
+nav>div {
+    padding: 10px;
+    font-size: 12px;
+}

@@ -4,6 +4,7 @@
 @use './partials/footer' as *;
 
 @use './partials/_mixins' as *;
+@use './partials/_reset' as *;
 
 .container {
     @include container(auto);

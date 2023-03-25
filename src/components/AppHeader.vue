@@ -7,16 +7,16 @@
                 </div>
                 <div>
                     <nav class="flex">
-                        <div>item1</div>
-                        <div>item2</div>
-                        <div>item3</div>
-                        <div>item4</div>
-                        <div>item5</div>
-                        <div>item6</div>
-                        <div>item7</div>
-                        <div>item8</div>
-                        <div>item9</div>
-                        <div>item10</div>
+                        <div>CHARACTERS</div>
+                        <div>COMICS</div>
+                        <div>MOVIES</div>
+                        <div>TV</div>
+                        <div>GAMES</div>
+                        <div>COLLECTIBLES</div>
+                        <div>VIDEOS</div>
+                        <div>FANS</div>
+                        <div>NEWS</div>
+                        <div>SHOP</div>
                     </nav>
                 </div>
             </div>
@@ -29,28 +29,5 @@
 <style lang="scss" scoped>
 @import "../assets/style/main.scss";
 @import "../assets/style/partials/header.scss";
-
-.header {
-    height: 100px;
-    background-color: yellow;
-}
-
-.flex {
-    display: flex;
-}
-
-header>div {
-    justify-content: space-between;
-}
-
-header>div,
-div>nav {
-    align-items: center;
-}
-
-nav,
-nav>div {
-    padding: 10px;
-}
 </style>
 
