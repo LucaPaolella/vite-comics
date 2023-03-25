@@ -3,21 +3,21 @@
     background-color: yellow;
 }
 
-.flex {
-    display: flex;
-}
 
-header>div {
+
+#container-nav-logo {
     justify-content: space-between;
-}
-
-header>div,
-div>nav {
     align-items: center;
+
 }
 
 nav,
 nav>div {
     padding: 10px;
     font-size: 12px;
+    line-height: 60px;
+}
+
+.logo {
+    max-width: 60px;
 }

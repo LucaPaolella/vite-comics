@@ -1,9 +1,9 @@
 <template>
     <div>
         <header class="header container">
-            <div class="flex">
+            <div id="container-nav-logo" class="flex">
                 <div>
-                    <img src="../assets/img/dc-logo.png" alt="">
+                    <img class="logo" src="../assets/img/dc-logo.png" alt="">
                 </div>
                 <div>
                     <nav class="flex">

@@ -5,6 +5,7 @@
 
 @use './partials/_mixins' as *;
 @use './partials/_reset' as *;
+@use './partials/_common' as *;
 
 .container {
     @include container(auto);
