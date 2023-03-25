@@ -2,3 +2,9 @@
 @use './partials/maintop' as *;
 @use './partials/mainBot' as *;
 @use './partials/footer' as *;
+
+@use './partials/_mixins' as *;
+
+.container {
+    @include container(auto);
+}

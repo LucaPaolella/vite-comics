@@ -1,9 +1,9 @@
 <template>
     <div>
-        <header class="header">
+        <header class="header container">
             <div class="flex">
                 <div>
-                    img
+                    <img src="../assets/img/dc-logo.png" alt="">
                 </div>
                 <div>
                     <nav class="flex">
@@ -26,11 +26,31 @@
   
 
   
-<style lang="scss">
+<style lang="scss" scoped>
 @import "../assets/style/main.scss";
+@import "../assets/style/partials/header.scss";
 
 .header {
-    height: 200px;
-    background-color: #f0f0f0;
+    height: 100px;
+    background-color: yellow;
+}
+
+.flex {
+    display: flex;
+}
+
+header>div {
+    justify-content: space-between;
+}
+
+header>div,
+div>nav {
+    align-items: center;
+}
+
+nav,
+nav>div {
+    padding: 10px;
 }
 </style>
+

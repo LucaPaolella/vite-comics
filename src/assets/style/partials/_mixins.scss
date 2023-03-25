@@ -1,0 +1,8 @@
+/*Container*/
+
+@mixin container($size) {
+    max-width: $size;
+    margin: auto;
+    max-height: 100px;
+    padding: 0 200px
+}
