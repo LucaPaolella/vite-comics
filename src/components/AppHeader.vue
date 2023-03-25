@@ -1,7 +1,7 @@
 <template>
     <div>
-        <header class="header container">
-            <div id="container-nav-logo" class="flex align-center">
+        <header class="header ">
+            <div id="container-nav-logo" class="flex align-center container">
                 <div>
                     <img class="logo" src="../assets/img/dc-logo.png" alt="">
                 </div>
